@@ -2,7 +2,7 @@
 import { withBase } from '../../lib/config';
 import CtaLinks from './CtaLinks.astro';
 
-const { heading, subheading, image, overlay = true, height = 'medium', links = [] } = Astro.props;
+const { heading, subheading, image, overlay = true, height = 'medium', links = [], logoImage, logoAlt } = Astro.props;
 
 const heightClass = {
   small: 'min-h-[40vh]',
@@ -24,7 +24,12 @@ const heightClass = {
     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
   )}
   <div class="relative z-10 text-center px-6">
-    {heading && (
+    {logoImage ? (
+      <>
+        <img src={withBase(logoImage)} alt={logoAlt || heading || ''} class="mx-auto w-full max-w-sm md:max-w-md" />
+        {heading && <h1 class="sr-only">{heading}</h1>}
+      </>
+    ) : heading && (
       <h1 class={`text-4xl md:text-6xl font-bold font-heading ${image ? 'text-white' : ''}`}>{heading}</h1>
     )}
     {subheading && (

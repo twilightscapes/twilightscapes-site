@@ -1,7 +1,7 @@
 {
   "github": "twilightscapes",
   "camera": "",
-  "bio": "Unique night photography — abandoned places and dark skies across the American backroads.",
+  "bio": "Night photographer. Builder of the Twilightscapes field kit — shoot, create, display.",
   "showDates": true,
   "mastodon": "",
   "author": "Todd Lambert",
@@ -16,7 +16,7 @@
   "location": "",
   "title": "Twilightscapes",
   "avatar": "",
-  "description": "Unique Night Photography by Todd Lambert — and an ambient photo app for Apple TV, iPhone & iPad.",
+  "description": "Unique Night Photography by Todd Lambert — and the night photographer's field kit: camera, editing suite, and ambient display for iPhone, iPad, Mac, Apple TV & Watch.",
   "cloudinary": {
     "enabled": false,
     "cloudName": "",

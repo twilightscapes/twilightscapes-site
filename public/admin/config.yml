@@ -140,6 +140,8 @@ collections:
             widget: object
             fields:
               - { label: "Heading", name: heading, widget: string, required: false }
+              - { label: "Logo Image", name: logoImage, widget: image, required: false, hint: "Shown in place of the heading (the heading is kept for screen readers/SEO). Animated SVGs play." }
+              - { label: "Logo Alt Text", name: logoAlt, widget: string, required: false }
               - { label: "Subheading", name: subheading, widget: text, required: false }
               - { label: "Background Image", name: image, widget: image, required: false }
               - { label: "Dark Overlay", name: overlay, widget: boolean, default: true, hint: "Add a dark gradient over the image for text readability" }

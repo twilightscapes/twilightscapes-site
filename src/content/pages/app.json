@@ -1,13 +1,13 @@
 {
   "title": "The App",
   "slug": "app",
-  "description": "Twilightscapes for Apple TV, iPhone & iPad — an ambient night-photography app.",
+  "description": "Twilightscapes for iPhone, iPad, Mac, Apple TV & Apple Watch — a night camera, a pocket editing suite, and an ambient gallery in one app.",
   "showInNav": false,
   "blocks": [
     {
       "type": "hero",
-      "heading": "Twilightscapes on Apple TV, iPhone & iPad",
-      "subheading": "Turn your screen into a window onto the night — curated collections played fullscreen with slow crossfades and gentle drift.",
+      "heading": "Shoot · Create · Display",
+      "subheading": "One app across iPhone, iPad, Mac, Apple TV, and Apple Watch: a camera engineered for the night, a full field-editing suite, and a display platform for every screen in the house.",
       "image": "/images/photos/Ghost Towns/night112.jpg",
       "overlay": true,
       "height": "medium"
@@ -15,7 +15,7 @@
     {
       "type": "text",
       "layout": "narrow",
-      "body": "Twilightscapes is an ambient display app built around this photography. Pick a collection and let it play — no feeds, no noise, just night skies on the biggest screen in the house.\n\n**On Apple TV** it's a living gallery: browse collections from the couch, swipe through photos with the Siri Remote, and let the Top Shelf surface featured work above the app icon.\n\n**On iPhone and iPad** it doubles as a photo frame, and every photo can be saved as a wallpaper — vertical crops included. Saved photos are filed into a *Twilightscapes Downloads* album that syncs through iCloud Photos, so your favorites can even become your native Apple TV or Mac screensaver.\n\n**Photo of the Day** picks one image from a rotating pool every day, and new collections arrive automatically from this site — no app update required. Everything is cached, so it all keeps working offline.\n\n**Night School** rounds it out with short lessons on night photography — the exposure triangle after dark, long exposures, star trails versus the Milky Way — each with a field recipe you can take outside tonight."
+      "body": "Each device plays the role it's physically best at. **The iPhone shoots and edits** — long-exposure stacking live in the viewfinder, a video recorder, dual-camera Spots, and the Studio. **The iPad monitors and edits large.** **The Mac is the deep desk** — the Darkroom, the full timeline editor, disk-native projects. **The Apple TV is the gallery wall.** **The Watch is the remote in your palm.**\n\nEverything a working night photographer — or a reporter with a story — needs, from shutter press to published post, without leaving the ecosystem.\n\n- **[The Night Camera](/camera)** — stacking, dark-frame subtraction, manual everything, the red interface, the monitor mesh, Spots.\n- **[The Software](/software)** — the Studio, the video editor, the Mac Darkroom, .scape projects, Field Safe, Bluesky publishing.\n- **[Displaying Your Work](/display)** — capture galleries to Apple TV automatically, playlists, narration, the pixel loupe, native screensavers.\n- **[Custom Printing](/printing)** — the calendar builder today, print ordering coming soon."
     },
     {
       "type": "faq",
@@ -26,16 +26,20 @@
           "answer": "Twilightscapes is currently in App Store review. The download link will appear here the moment it goes live."
         },
         {
-          "question": "Which devices does it support?",
-          "answer": "Apple TV (tvOS), iPhone and iPad, with an Apple Watch companion. A Mac app and screensaver are on the roadmap."
+          "question": "What does it cost?",
+          "answer": "Everything is free — every camera feature, every editor, every platform. <strong>Twilightscapes Pro</strong> is one purchase, no subscription: it unlocks launch modes (open straight into the camera, video, dual camera, or Studio) and supports an independent artist. One purchase covers iPhone, iPad, Mac, and Apple TV."
+        },
+        {
+          "question": "Can I use it without the Twilightscapes portfolio?",
+          "answer": "Yes — <em>My Photos only</em> hides the portfolio entirely and opens the app straight into your own photos, galleries, and Studio. Free for everyone."
+        },
+        {
+          "question": "Does it collect my data?",
+          "answer": "No. Camera, microphone, and photo library are used entirely on-device. Bluesky credentials live in your device Keychain. Field Safe uploads go to a server <em>you</em> configure. No analytics, no ads, no tracking."
         },
         {
           "question": "Do new photos really show up without an update?",
-          "answer": "Yes — the app checks this site for new collections and lessons. Photos download once and are cached, so everything keeps working offline."
-        },
-        {
-          "question": "How do wallpaper downloads work?",
-          "answer": "During playback, tap the download button to save the current photo to a <em>Twilightscapes Downloads</em> album in your Photos library. Vertical crops are saved when available, so wallpapers fit your phone."
+          "answer": "Yes — collections, Night School lessons, posts, and Photo of the Day are fed from this site. Photos download once and are cached, so everything keeps working offline."
         }
       ]
     },

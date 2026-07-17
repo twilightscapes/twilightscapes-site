@@ -1,0 +1,30 @@
+{
+  "title": "Custom Printing",
+  "slug": "printing",
+  "description": "From the app to your wall: the calendar builder today, custom prints coming soon.",
+  "showInNav": false,
+  "blocks": [
+    {
+      "type": "hero",
+      "heading": "Custom Printing",
+      "subheading": "The pipeline doesn't end at a screen.",
+      "image": "/images/photos/Route 66/1iphone-roadtrip-bw-016.jpg",
+      "overlay": true,
+      "height": "medium"
+    },
+    {
+      "type": "text",
+      "layout": "narrow",
+      "body": "## Today: the calendar builder\n\nBuilt into the app now: assign photos — yours or the portfolio's — to a cover, twelve months, and a back cover. Every slot stays editable, the project syncs across your devices, it displays on the Apple TV as a living calendar, and it exports as a **print-ready PDF** you can take to any print shop.\n\n## Coming soon: custom prints\n\nDirect print ordering is in the works — museum-quality prints of the Twilightscapes portfolio, and of *your own* work straight from the app: shoot it with the [night camera](/camera), finish it in the [Darkroom](/software), hang it on the [TV](/display), then hold it in your hands.\n\nWatch [the posts](/posts) for the announcement — it will land there (and in the app) first."
+    },
+    {
+      "type": "cta",
+      "heading": "Until then",
+      "description": "The rest of the pipeline is ready tonight.",
+      "links": [
+        { "label": "The Night Camera", "url": "/camera", "style": "primary" },
+        { "label": "The App Overview", "url": "/app", "style": "outline" }
+      ]
+    }
+  ]
+}

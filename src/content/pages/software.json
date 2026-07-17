@@ -1,0 +1,34 @@
+{
+  "title": "The Software",
+  "slug": "software",
+  "description": "The editing suite: the Studio, a real timeline video editor, the Mac Darkroom, cross-device sync with .scape project files, Field Safe, and native Bluesky publishing.",
+  "showInNav": false,
+  "blocks": [
+    {
+      "type": "hero",
+      "heading": "The Editing Suite",
+      "subheading": "Develop, stack, cut, layer, narrate, and publish — the same render engines from iPhone to Mac, so the output is identical wherever you work.",
+      "image": "/images/photos/Crazy Geology/night1.jpg",
+      "overlay": true,
+      "height": "medium"
+    },
+    {
+      "type": "text",
+      "layout": "narrow",
+      "body": "## The Studio (iPhone & iPad)\n\nThe making room: seven operations over one selection model, all rendering through the same engines as the Mac.\n\n- **Spot** — the full broadcast pipeline, plus a synced Spot Projects list for re-editing.\n- **Edit** — opens any video in the full timeline editor, from Photos, Files, or a spot you just rendered.\n- **Develop** — the Mac Darkroom's exact toolset: a Twilightscape look plus nine adjustment sliders with live preview, rendered at full resolution.\n- **Timelapse** — selected frames become video at 12/24/30 fps, with a running duration estimate.\n- **Star Trails** — lighten-blend stacking: trails connect, lights accumulate.\n- **Smooth** — average-blend stacking: silky water, melted noise.\n- **Look** — one-tap Twilightscape presets on any photo.\n\nSources are your whole library — capture galleries, All Photos, your videos, every album — plus the Files app. A **live session mode** pins the Studio to the active capture gallery while the intervalometer shoots, streaming new frames into your selection. One deliberate rule: the curated Twilightscapes portfolio is display-only, never an editing source. Nobody develops the artist's work.\n\n## The video editor\n\nA real NLE, identical on phone and Mac because it *is* the same engine — the phone gets a touch-first layout, the Mac gets panes and lanes.\n\n- **Timeline** — a filmstrip with real thumbnails: drag to scrub, split at the playhead, delete pieces, trim with finger-sized edge grips. Playback previews cuts by jumping the gaps. Full undo/redo, one step per gesture.\n- **Layers** — photo overlays (fake fronts, tickers, callout arrows) and typed headlines, dragged and pinched into place with a time window on the timeline. Every overlay has a start pose and an optional end pose, and glides between them. One **punch-in zoom** per edit: aim a ring at a face or detail, pick 1.2×–4×, eased in and out.\n- **Sound** — ride the original audio down to zero, mix voiceover/music/correction layers each with its own volume and trimmable window, and **record voiceover in place** — the picture plays while you narrate, and the take lands at the playhead.\n- **Out the door** — render to Photos, save to Files, share, or post to Bluesky with a caption, all without leaving the editor.\n\n## The Mac Darkroom\n\nThe night photographer's desk — four modes behind one header, with a unified Open dialog that routes projects, photos, or video by kind.\n\n- **Develop** — the Twilightscape look plus nine sliders (exposure, contrast, highlights, shadows, vibrance, saturation, warmth, tint, sharpen), per-slider reset, live preview.\n- **Stack** — star-trail or smooth blends over any frames, with dark-frame subtraction: ⌥-click a lens-cap frame in the grid and its noise is subtracted from every frame.\n- **Video** — the full editor with Mac comforts: per-layer timeline lanes, pose ghosts on the canvas, keyboard shortcuts.\n- **Spots** — projects recorded on the iPhone appear via iCloud; both streams play in sync, the bubble re-animates with drag keyframes, and saved motion syncs back to the phone.\n- **Disk-native** — open images and video straight from the file system, no Photos import required."
+    },
+    {
+      "type": "text",
+      "layout": "narrow",
+      "body": "## Sync & the .scape format\n\nTwo channels carry everything: iCloud key-value storage for curation and projects, iCloud Photos for the media — with photo identity translated between devices, so \"this photo\" means the same thing everywhere. Playlists, narration mutes, capture-gallery names, and spot projects sync automatically: curate on the phone, every device follows.\n\n**.scape** is one project file for everything — develop recipes, stack setups, and full video edits in a single JSON document. Overlay images and audio layers are embedded; sources are stored as device IDs plus iCloud identifiers, so a project made on the iPhone opens on the Mac and vice versa. It's a real document: a Finder/Files icon with QuickLook thumbnails, double-click opens the Mac Darkroom, tap opens the Studio. Old files stay openable in newer builds.\n\n## Field Safe\n\nPress-freedom infrastructure: the moment a recording exists, a copy is leaving the phone for a server *you* control.\n\n- Any WebDAV endpoint or web server that accepts PUT — Nextcloud, Synology, your own box. Optional Basic auth with the password in the Keychain, and a Test Connection button that reports honestly.\n- Video takes upload when recording stops (before you even hit Save); spot takes upload both streams the moment you keep them; rendered edits upload on export.\n- Background uploads survive the app being suspended or killed; files spool locally until the server confirms. A pulsing cloud badge turns green when the copy is safe — you know before anyone reaches the camera.\n\n## Publishing\n\nBluesky, natively: post video with a caption straight from the Studio, the video editor, or the spot editor, on iPhone and Mac. App-password sign-in, tokens in the Keychain, native video embeds. Shoot → edit → publish, one app."
+    },
+    {
+      "type": "cta",
+      "heading": "Edited. Now hang it.",
+      "description": "Your galleries, playlists, and narrated slideshows on every screen in the house.",
+      "links": [
+        { "label": "Displaying Your Work →", "url": "/display", "style": "primary" }
+      ]
+    }
+  ]
+}

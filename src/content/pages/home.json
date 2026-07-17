@@ -6,24 +6,42 @@
     {
       "type": "hero",
       "heading": "Twilightscapes",
-      "subheading": "Unique night photography by Todd Lambert — abandoned places and dark skies across the American backroads. Now an ambient photo app for Apple TV, iPhone & iPad.",
+      "logoImage": "/images/LogoAnimation.svg",
+      "logoAlt": "Twilightscapes",
+      "subheading": "Unique night photography by Todd Lambert — and the field kit that made it. A camera engineered for the dark, a pocket editing suite, and an ambient gallery for every screen you own.",
       "image": "/images/photos/Milky Way/night139.jpg",
       "overlay": true,
       "height": "large",
       "links": [
-        { "label": "Get the App", "url": "/app", "style": "primary" },
-        { "label": "Browse Galleries", "url": "/galleries", "style": "outline" }
+        { "label": "Browse the Work", "url": "/galleries", "style": "primary" },
+        { "label": "The Night Camera", "url": "/camera", "style": "outline" }
       ]
     },
     {
       "type": "text",
       "layout": "narrow",
-      "body": "Twilightscapes is a decades-long project photographing the world after dark — ghost towns, lonely churches, desert geology, and the Milky Way over places most people drive past in daylight. Every photo here was made at night, on location, with long exposures and a lot of patience."
+      "body": "## The Work\n\nTwilightscapes is a decades-long project photographing the world after dark — ghost towns, lonely churches, desert geology, and the Milky Way over places most people drive past in daylight. Every photo was made at night, on location, with long exposures and a lot of patience."
     },
     {
       "type": "galleriesList",
       "heading": "Galleries",
       "columns": "3"
+    },
+    {
+      "type": "text",
+      "layout": "narrow",
+      "body": "## Shoot · Create · Display\n\nEvery technique behind these photos now ships as an app. **Twilightscapes** for iPhone, iPad, Mac, Apple TV, and Apple Watch is three things in one: a camera built for long exposures, a complete editing suite that fits in your pocket, and a display platform that turns every screen in the house into a gallery — for this work, and for yours.\n\nShoot star trails and silky water with live-stacking, no ND filter. Develop, stack, cut video, and record voiceover in the field. Then watch your own capture galleries appear on the Apple TV automatically. From shutter press to published post — or printed wall — without leaving the ecosystem."
+    },
+    {
+      "type": "cta",
+      "heading": "The Field Kit",
+      "description": "Dig into the technical details:",
+      "links": [
+        { "label": "The Night Camera", "url": "/camera", "style": "primary" },
+        { "label": "The Software", "url": "/software", "style": "primary" },
+        { "label": "Displaying Your Work", "url": "/display", "style": "primary" },
+        { "label": "Custom Printing", "url": "/printing", "style": "outline" }
+      ]
     },
     {
       "type": "recentPosts",

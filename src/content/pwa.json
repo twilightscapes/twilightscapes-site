@@ -2,7 +2,7 @@
   "searchEngineVisibility": true,
   "name": "Twilightscapes",
   "shortName": "Twilightscapes",
-  "description": "Unique Night Photography by Todd Lambert",
+  "description": "Night photography by Todd Lambert — and the field kit that made it: night camera, pocket editing suite, ambient display.",
   "startUrl": "/",
   "display": "standalone",
   "backgroundColor": "#010200",
@@ -12,7 +12,7 @@
   "screenshot": "/images/screenshot.png",
   "ogImage": "/images/icon512.png",
   "ogTitle": "Twilightscapes",
-  "ogDescription": "Unique Night Photography by Todd Lambert",
+  "ogDescription": "Night photography by Todd Lambert — and the field kit that made it: night camera, pocket editing suite, ambient display.",
   "favicon": "/images/logoImage.svg",
   "appleTouchIcon": "/images/icon192.png"
 }

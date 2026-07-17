@@ -119,6 +119,26 @@
       "visible": true
     },
     {
+      "label": "Camera",
+      "url": "/camera",
+      "visible": true
+    },
+    {
+      "label": "Software",
+      "url": "/software",
+      "visible": true
+    },
+    {
+      "label": "Display",
+      "url": "/display",
+      "visible": true
+    },
+    {
+      "label": "Printing",
+      "url": "/printing",
+      "visible": true
+    },
+    {
       "label": "The App",
       "url": "/app",
       "visible": true
