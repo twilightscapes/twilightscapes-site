@@ -9,7 +9,7 @@ import preact from '@astrojs/preact';
 const base = process.env.BASE_PATH || undefined;
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://example.com',
+  site: process.env.SITE_URL || 'https://twilightscapes.com',
   ...(base ? { base } : {}),
   integrations: [mdx(), sitemap(), preact({ compat: true })],
   vite: {

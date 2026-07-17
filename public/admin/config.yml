@@ -1,15 +1,15 @@
 backend:
   name: github
-  repo: your-username/your-repo
+  repo: twilightscapes/twilightscapes-site
   branch: main
   base_url: https://piratesocial.app
   auth_endpoint: /api/decap/auth
 
-site_url: https://example.com
-display_url: https://example.com
+site_url: https://twilightscapes.com
+display_url: https://twilightscapes.com
 
 logo:
-  src: https://piratesocial.app/logoImage.svg
+  src: /images/logoImage.svg
 
 media_folder: public/images
 public_folder: /images
@@ -870,3 +870,30 @@ collections:
             collapsed: true
             fields:
               - { label: "Powered By Text", name: poweredBy, widget: string, default: "Powered by Pirate Social" }
+
+  # Night School lessons — published to the Twilightscapes apps as
+  # /app-content/learn.json at build time.
+  - name: learn
+    label: Night School
+    folder: src/content/learn
+    create: true
+    extension: md
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number, value_type: int, required: false }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Hero Image, name: hero, widget: image, required: false }
+      - { label: YouTube URL, name: youtube, widget: string, required: false }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - label: Field Recipe
+        name: recipe
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { label: ISO, name: iso, widget: number, value_type: int, required: false }
+          - { label: Shutter (seconds), name: shutterSeconds, widget: number, required: false }
+          - { label: Aperture (ƒ), name: aperture, widget: number, required: false }
+          - { label: Note, name: note, widget: text, required: false }
+      - { label: Body, name: body, widget: markdown }

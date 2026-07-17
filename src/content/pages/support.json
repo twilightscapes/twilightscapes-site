@@ -1,0 +1,31 @@
+{
+  "title": "Support",
+  "slug": "support",
+  "description": "Support for the Twilightscapes apps and website.",
+  "showInNav": false,
+  "blocks": [
+    {
+      "type": "text",
+      "layout": "narrow",
+      "body": "## Support\n\nHaving trouble with the Twilightscapes app for Apple TV, iPhone or iPad — or something on this site? Get in touch and include your device and what you were doing when the problem appeared.\n\n**Email:** [support@twilightscapes.com](mailto:support@twilightscapes.com)\n\nFor how the app handles your data, see the [Privacy Policy](/privacy)."
+    },
+    {
+      "type": "faq",
+      "heading": "Common questions",
+      "items": [
+        {
+          "question": "Photos aren't loading in the app.",
+          "answer": "New collections download from twilightscapes.com the first time you open them, so a network connection is needed once per collection. After that they're cached and work offline. If a download stalls, force-quit the app and reopen it."
+        },
+        {
+          "question": "My wallpaper download didn't appear in Photos.",
+          "answer": "Downloads are filed into a <em>Twilightscapes Downloads</em> album, which requires full Photos permission. With limited or add-only access the photo still saves to your library — it just isn't filed into the album."
+        },
+        {
+          "question": "How do I use my downloads as a screensaver?",
+          "answer": "On Apple TV: Settings → Screen Saver → My Photos → Twilightscapes Downloads. On Mac, the built-in photo screensavers can use the same album via iCloud Photos."
+        }
+      ]
+    }
+  ]
+}

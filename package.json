@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm run app-content && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "setup": "node setup.mjs"
+    "setup": "node setup.mjs",
+    "app-content": "node scripts/generate-app-manifest.mjs && node scripts/generate-app-posts.mjs && node scripts/generate-app-learn.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",
@@ -22,6 +23,7 @@
     "marked": "^18.0.1",
     "preact": "^10.29.1",
     "sharp": "^0.34.5",
-    "tailwindcss": "^4.2.2"
+    "tailwindcss": "^4.2.2",
+    "yaml": "^2.9.0"
   }
 }

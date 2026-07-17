@@ -114,14 +114,19 @@
   },
   "navItems": [
     {
-      "label": "Posts",
-      "url": "/posts",
-      "visible": false
-    },
-    {
       "label": "Galleries",
       "url": "/galleries",
-      "visible": false
+      "visible": true
+    },
+    {
+      "label": "The App",
+      "url": "/app",
+      "visible": true
+    },
+    {
+      "label": "Posts",
+      "url": "/posts",
+      "visible": true
     },
     {
       "label": "Social",
@@ -132,11 +137,6 @@
       "label": "Settings",
       "url": "/settings",
       "visible": true
-    },
-    {
-      "label": "About",
-      "url": "/about",
-      "visible": false
     }
   ],
   "home": {

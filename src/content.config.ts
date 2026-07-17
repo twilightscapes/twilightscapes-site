@@ -97,4 +97,26 @@ const pages = defineCollection({
     }),
 });
 
-export const collections = { posts, galleries, slideshows, pages };
+// Night School lessons — published to the Twilightscapes apps as
+// /app-content/learn.json (see scripts/generate-app-learn.mjs).
+const learn = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/learn' }),
+  schema: z.object({
+      title: z.string(),
+      order: z.number().optional(),
+      summary: z.string().optional(),
+      hero: z.string().optional(),
+      youtube: z.string().optional(),
+      draft: z.boolean().default(false),
+      recipe: z
+        .object({
+          iso: z.number().optional(),
+          shutterSeconds: z.number().optional(),
+          aperture: z.number().optional(),
+          note: z.string().optional(),
+        })
+        .optional(),
+    }),
+});
+
+export const collections = { posts, galleries, slideshows, pages, learn };

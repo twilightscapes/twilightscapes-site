@@ -1,0 +1,12 @@
+{
+  "collections": [
+    {
+      "id": "highlight",
+      "title": "Highlights",
+      "subtitle": "A spotlight photo",
+      "photos": [
+        { "id": "s1", "file": "images/photos/Churches/Churches - 1 of 17.jpeg", "title": "Church photo", "location": "Texas", "year": 2018 }
+      ]
+    }
+  ]
+}
