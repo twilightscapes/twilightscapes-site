@@ -14,13 +14,22 @@ customizations (do NOT upstream).
    → Already committed on branch `fix/galleries-index-page` in
    `~/Sites/piratesocial` — push and open a PR when ready.
 
-2. **HeroBlock: optional `logoImage` / `logoAlt` props** — renders a logo
+2. **Gallery detail page: photos now open in a lightbox** — the grid
+   rendered `slideshow-jump` buttons that only moved the (often
+   off-screen) top slideshow, so clicking a photo appeared broken. Grid
+   items are now GLightbox anchors, matching the integration
+   BlockRenderer already ships for gallery blocks; captions become
+   lightbox descriptions, and `withBase` is applied to grid image srcs
+   (was missing). → Committed on `fix/galleries-index-page` in
+   `~/Sites/piratesocial`.
+
+3. **HeroBlock: optional `logoImage` / `logoAlt` props** — renders a logo
    image in place of the heading (heading becomes an sr-only `<h1>` for
    SEO/accessibility). Lets sites drop an (animated) SVG wordmark into the
    hero. Generic; CMS fields added to the hero block in
    `public/admin/config.yml`. Worth upstreaming both together.
 
-3. **`src/lib/decap-config.yml` appears to be dead code** — Sveltia loads
+4. **`src/lib/decap-config.yml` appears to be dead code** — Sveltia loads
    `public/admin/config.yml` (the default path); nothing in the repo
    references `src/lib/decap-config.yml`, and the two files have drifted
    apart (831 vs 872 lines). Having both invites editing the wrong one.
