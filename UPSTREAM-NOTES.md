@@ -1,52 +1,40 @@
-# Template changes to upstream to piratewebsite/piratesocial
+# Template changes — upstream status
 
-This site is built on the Pirate Social template. Changes made here fall into
-two buckets: generic template fixes (upstream these) and Twilightscapes-specific
-customizations (do NOT upstream).
+This site is built on the Pirate Social template
+(github.com/piratewebsite/piratesocial, the `upstream` git remote). Generic
+fixes belong there; Twilightscapes-specific customizations stay here.
 
-## Upstream these (generic fixes)
+## Upstreamed ✅ (all merged to piratesocial main, 2026-07-17)
 
-1. **Missing `/galleries` index page** — the default nav (`labels.json`
-   `navItems`) links to `/galleries`, but the template only ships
-   `src/pages/galleries/[slug].astro`, so the link 404s on every fresh
-   install. Fixed by adding `src/pages/galleries/index.astro` (card grid
-   modeled on `posts/index.astro`, uses `labels.galleries.heading`).
-   → Already committed on branch `fix/galleries-index-page` in
-   `~/Sites/piratesocial` — push and open a PR when ready.
+1. **Missing `/galleries` index page** — default nav 404'd on every fresh
+   install. (PR #1)
+2. **Gallery detail page: photos open in a GLightbox lightbox** — the grid
+   previously only jumped the top slideshow; also added `withBase` to grid
+   image srcs. (PR #1)
+3. **Dark lightbox caption panel** — stock skin rendered white-on-white in
+   the template's default dark theme. (PR #1)
+4. **README warning about template auto-updates** — the GitHub Pages
+   workflow rebuilds from latest template keeping only `src/content/`;
+   code customizers must delete `deploy.yml`. Plus removal of the dead,
+   drifted `src/lib/decap-config.yml`. (direct commit)
 
-2. **Gallery detail page: photos now open in a lightbox** — the grid
-   rendered `slideshow-jump` buttons that only moved the (often
-   off-screen) top slideshow, so clicking a photo appeared broken. Grid
-   items are now GLightbox anchors, matching the integration
-   BlockRenderer already ships for gallery blocks; captions become
-   lightbox descriptions, and `withBase` is applied to grid image srcs
-   (was missing). Caption chrome is styled dark in `global.css` — the
-   default GLightbox skin renders white-on-white in the template's dark
-   theme. → Committed on `fix/galleries-index-page` in
-   `~/Sites/piratesocial`.
+## Not yet upstreamed
 
-3. **HeroBlock: optional `logoImage` / `logoAlt` props** — renders a logo
-   image in place of the heading (heading becomes an sr-only `<h1>` for
-   SEO/accessibility). Lets sites drop an (animated) SVG wordmark into the
-   hero. Generic; CMS fields added to the hero block in
-   `public/admin/config.yml`. Worth upstreaming both together.
+- **HeroBlock: optional `logoImage` / `logoAlt` props** — renders a logo
+  image in place of the heading (heading becomes an sr-only `<h1>`).
+  Generic and useful (animated SVG wordmarks); needs the matching CMS
+  fields from `public/admin/config.yml` carried along.
 
-4. **`src/lib/decap-config.yml` appears to be dead code** — Sveltia loads
-   `public/admin/config.yml` (the default path); nothing in the repo
-   references `src/lib/decap-config.yml`, and the two files have drifted
-   apart (831 vs 872 lines). Having both invites editing the wrong one.
-   Suggest deleting the `src/lib` copy or documenting why it exists.
-   (Not committed anywhere — verify intent first.)
-
-## Twilightscapes-specific (keep local)
+## Twilightscapes-specific (keep local, never upstream)
 
 - `scripts/generate-app-manifest.mjs`, `generate-app-posts.mjs`,
-  `generate-app-learn.mjs` — app-content pipeline for the Apple TV/iOS apps
-  (ported from twilight-astro), wired into `npm run build`.
-- `scripts/generate-galleries.mjs` — one-time importer that creates gallery
-  entries from manifest collections. (Could be generalized into an upstream
-  "import galleries from a public/ folder" feature if there's appetite.)
-- `src/content/learn/` collection + Sveltia "Night School" collection +
-  `learn` entry in `src/content.config.ts`.
-- All content/branding: settings, theme, pwa, labels, pages (home, app,
-  support, privacy), launch post, galleries, `public/images/photos/`.
+  `generate-app-learn.mjs` — app-content pipeline for the Apple TV/iOS
+  apps, wired into `npm run build`.
+- `scripts/generate-galleries.mjs` — importer from manifest collections to
+  site galleries (could be generalized upstream if there's appetite).
+- `src/content/learn/` collection + Sveltia "Night School" collection.
+- Removal of `.github/workflows/deploy.yml` — required here because this
+  site customizes code and deploys via Netlify (see README warning
+  upstreamed in #4).
+- All content/branding: settings, theme, pwa, labels, pages, posts,
+  galleries, `public/images/photos/`, animated logo.
