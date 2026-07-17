@@ -1,26 +1,26 @@
 {
-  "github": "twilightscapes",
-  "camera": "",
-  "bio": "Night photographer. Builder of the Twilightscapes field kit — shoot, create, display.",
+  "enableSocial": true,
+  "navStyle": "float",
   "showDates": true,
-  "mastodon": "",
+  "title": "Twilightscapes - Unique Night Photography by Todd Lambert — and photographer's field kit",
+  "description": "Unique Night Photography by Todd Lambert — and the night photographer's field kit: camera, editing suite, and ambient display for iPhone, iPad, Mac, Apple TV & Watch.",
   "author": "Todd Lambert",
+  "bio": "Night photographer. Builder of the Twilightscapes field kit — shoot, create, display.",
+  "avatar": "/images/todd.webp",
+  "location": "",
+  "camera": "",
   "logo": {
     "type": "image",
     "image": "/images/logoImage.svg",
     "text": ""
   },
-  "enableSocial": true,
-  "navStyle": "float",
-  "instagram": "",
-  "location": "",
-  "title": "Twilightscapes",
-  "avatar": "",
-  "description": "Unique Night Photography by Todd Lambert — and the night photographer's field kit: camera, editing suite, and ambient display for iPhone, iPad, Mac, Apple TV & Watch.",
   "cloudinary": {
     "enabled": false,
     "cloudName": "",
     "apiKey": ""
   },
-  "giphyKey": ""
+  "giphyKey": "",
+  "github": "twilightscapes",
+  "instagram": "",
+  "mastodon": ""
 }
