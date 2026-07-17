@@ -20,7 +20,9 @@ customizations (do NOT upstream).
    items are now GLightbox anchors, matching the integration
    BlockRenderer already ships for gallery blocks; captions become
    lightbox descriptions, and `withBase` is applied to grid image srcs
-   (was missing). → Committed on `fix/galleries-index-page` in
+   (was missing). Caption chrome is styled dark in `global.css` — the
+   default GLightbox skin renders white-on-white in the template's dark
+   theme. → Committed on `fix/galleries-index-page` in
    `~/Sites/piratesocial`.
 
 3. **HeroBlock: optional `logoImage` / `logoAlt` props** — renders a logo
