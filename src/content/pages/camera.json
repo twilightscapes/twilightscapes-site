@@ -7,6 +7,7 @@
     {
       "type": "hero",
       "heading": "The Night Camera",
+      "logoAlt": "",
       "subheading": "Built around what night work actually requires: long exposures without an ND filter, sensor-noise discipline, dark adaptation, and a shutter you never have to touch.",
       "image": "/images/photos/Milky Way/night46.jpg",
       "overlay": true,
@@ -14,8 +15,9 @@
     },
     {
       "type": "text",
+      "heading": "",
       "layout": "narrow",
-      "body": "## Capture engine\n\n- **Long-exposure stacking, live** — two blend engines: *Mean* averages frames in linear light for silky water and the ND-filter look; *Lighten* takes the per-channel max for star trails and light painting. You watch the accumulation build in the viewfinder as it happens.\n- **Dark-frame subtraction** — capture a lens-cap dark master in the field and sensor noise is subtracted from your stacks. Clean night skies from a phone.\n- **Full manual control** — ISO and shutter, white-balance temperature and tint, manual focus by lens position, exposure bias in auto, and tap-to-focus/expose anywhere in the frame.\n- **ProRAW or HEIF**, lens switching (ultra-wide / wide / telephoto), zoom, and a silent shutter.\n- **Intervalometer & stack timer** — timed sequences for timelapse frames, and timed stack runs for hands-off long exposures.\n\n## Built for the dark\n\n- **Night-vision interface** — controls dim and tint red or amber to preserve dark adaptation, while the viewfinder image stays natural so you can still judge color. Auto-dim keeps the screen from polluting an exposure.\n- **Live readouts** — ISO, shutter, elapsed stack time, and frame count ride the viewfinder.\n- **A customizable control tray** — every control is a module (readouts, exposure, white balance, focus, format, lenses, timer, intervalometer, grid, link, gallery, dual-camera, video…) you can arrange into docks, per orientation.\n\n## In and out fast\n\n- **Capture galleries** — captures always land in a named album. Switch or create galleries (\"Tonight's Eclipse\") without leaving the viewfinder; they sync everywhere as displays via iCloud Photos.\n- **A Lock Screen / Control Center button** launches straight into the camera.\n- **Capture recipes** — Night School lessons and shared links hand exact ISO/shutter settings to the camera via the `twilightscapes-camera://` URL scheme.\n- **One command bus** — every camera action is a single command type, so on-screen controls, the iPad monitor, and the Apple Watch all drive the same engine identically. \"Press the shutter\" from your wrist resolves to whatever the shutter means right now — starting and stopping stacks included."
+      "body": "![Camera interface showing a wind turbine farm at sunset](/images/camera1.webp \"Twilighscapes camer is infinitely configurable\")\n\n## Capture engine\n\n- **Long-exposure stacking, live** — two blend engines: _Mean_ averages frames in linear light for silky water and the ND-filter look; _Lighten_ takes the per-channel max for star trails and light painting. You watch the accumulation build in the viewfinder as it happens.\n- **Dark-frame subtraction** — capture a lens-cap dark master in the field and sensor noise is subtracted from your stacks. Clean night skies from a phone.\n- **Full manual control** — ISO and shutter, white-balance temperature and tint, manual focus by lens position, exposure bias in auto, and tap-to-focus/expose anywhere in the frame.\n- **ProRAW or HEIF**, lens switching (ultra-wide / wide / telephoto), zoom, and a silent shutter.\n- **Intervalometer & stack timer** — timed sequences for timelapse frames, and timed stack runs for hands-off long exposures.\n\n## Built for the dark\n\n- **Night-vision interface** — controls dim and tint red or amber to preserve dark adaptation, while the viewfinder image stays natural so you can still judge color. Auto-dim keeps the screen from polluting an exposure.\n- **Live readouts** — ISO, shutter, elapsed stack time, and frame count ride the viewfinder.\n- **A customizable control tray** — every control is a module (readouts, exposure, white balance, focus, format, lenses, timer, intervalometer, grid, link, gallery, dual-camera, video…) you can arrange into docks, per orientation.\n\n## In and out fast\n\n- **Capture galleries** — captures always land in a named album. Switch or create galleries (\"Tonight's Eclipse\") without leaving the viewfinder; they sync everywhere as displays via iCloud Photos.\n- **A Lock Screen / Control Center button** launches straight into the camera.\n- **Capture recipes** — Night School lessons and shared links hand exact ISO/shutter settings to the camera via the `twilightscapes-camera://` URL scheme.\n- **One command bus** — every camera action is a single command type, so on-screen controls, the iPad monitor, and the Apple Watch all drive the same engine identically. \"Press the shutter\" from your wrist resolves to whatever the shutter means right now — starting and stopping stacks included."
     },
     {
       "type": "text",
@@ -25,10 +27,14 @@
     {
       "type": "cta",
       "heading": "You've got the shot.",
-      "description": "Now develop it, stack it, cut it, and publish it — without going home.",
       "links": [
-        { "label": "The Software →", "url": "/software", "style": "primary" }
-      ]
+        {
+          "label": "The Software →",
+          "url": "/software",
+          "style": "primary"
+        }
+      ],
+      "description": "Now develop it, stack it, cut it, and publish it — without going home."
     }
   ]
 }
