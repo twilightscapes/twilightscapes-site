@@ -18,6 +18,18 @@
       "body": "Each device plays the role it's physically best at. **The iPhone shoots and edits** — long-exposure stacking live in the viewfinder, a video recorder, dual-camera Spots, and the Studio. **The iPad monitors and edits large.** **The Mac is the deep desk** — the Darkroom, the full timeline editor, disk-native projects. **The Apple TV is the gallery wall.** **The Watch is the remote in your palm.**\n\nEverything a working night photographer — or a reporter with a story — needs, from shutter press to published post, without leaving the ecosystem.\n\n- **[The Night Camera](/camera)** — stacking, dark-frame subtraction, manual everything, the red interface, the monitor mesh, Spots.\n- **[The Software](/software)** — the Studio, the video editor, the Mac Darkroom, .scape projects, Field Safe, Bluesky publishing.\n- **[Displaying Your Work](/display)** — capture galleries to Apple TV automatically, playlists, narration, the pixel loupe, native screensavers.\n- **[Custom Printing](/printing)** — the calendar builder today, print ordering coming soon."
     },
     {
+      "type": "image",
+      "src": "/images/app/home.jpg",
+      "alt": "Twilightscapes app home screen showing latest posts, Night School lessons, and photo galleries",
+      "caption": "The home space — latest posts, Night School, and the full gallery collection, live on your phone."
+    },
+    {
+      "type": "image",
+      "src": "/images/app/studio-assemble.jpg",
+      "alt": "The Studio's Assemble panel with Spot, Edit, Develop, and Timelapse modes",
+      "caption": "The Studio: Spot, Edit, Develop, and Timelapse — seven operations in one making room."
+    },
+    {
       "type": "faq",
       "heading": "Questions",
       "items": [
@@ -48,7 +60,11 @@
       "heading": "Need help?",
       "description": "Questions, feedback, or something not working right?",
       "links": [
-        { "label": "Support", "url": "/support", "style": "primary" }
+        {
+          "label": "Support",
+          "url": "/support",
+          "style": "primary"
+        }
       ]
     }
   ]

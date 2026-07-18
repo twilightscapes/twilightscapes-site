@@ -18,12 +18,38 @@
       "body": "## Today: the calendar builder\n\nBuilt into the app now: assign photos — yours or the portfolio's — to a cover, twelve months, and a back cover. Every slot stays editable, the project syncs across your devices, it displays on the Apple TV as a living calendar, and it exports as a **print-ready PDF** you can take to any print shop.\n\n## Coming soon: custom prints\n\nDirect print ordering is in the works — museum-quality prints of the Twilightscapes portfolio, and of *your own* work straight from the app: shoot it with the [night camera](/camera), finish it in the [Darkroom](/software), hang it on the [TV](/display), then hold it in your hands.\n\nWatch [the posts](/posts) for the announcement — it will land there (and in the app) first."
     },
     {
+      "type": "image",
+      "src": "/images/app/calendar-builder.jpg",
+      "alt": "The calendar builder with cover and month photo slots filled with night photographs",
+      "caption": "Assign photos — yours or the portfolio's — to a cover and twelve months."
+    },
+    {
+      "type": "image",
+      "src": "/images/app/calendar-cover.jpg",
+      "alt": "The 2026 calendar cover preview showing a twilight field car photograph",
+      "caption": "The living calendar view — it displays on Apple TV, too."
+    },
+    {
+      "type": "image",
+      "src": "/images/app/calendar-export.jpg",
+      "alt": "Calendar export options: View Calendar, Export Print-Ready PDF, Order Printed Calendar",
+      "caption": "Export a print-ready PDF for any print shop, or order the wire-bound wall calendar."
+    },
+    {
       "type": "cta",
       "heading": "Until then",
       "description": "The rest of the pipeline is ready tonight.",
       "links": [
-        { "label": "The Night Camera", "url": "/camera", "style": "primary" },
-        { "label": "The App Overview", "url": "/app", "style": "outline" }
+        {
+          "label": "The Night Camera",
+          "url": "/camera",
+          "style": "primary"
+        },
+        {
+          "label": "The App Overview",
+          "url": "/app",
+          "style": "outline"
+        }
       ]
     }
   ]
