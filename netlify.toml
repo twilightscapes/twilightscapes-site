@@ -1,5 +1,7 @@
 [build]
-  command = "npm run build"
+  # Clear Astro's content-layer cache first: Netlify restores it between
+  # builds and it can serve stale content-collection JSON.
+  command = "rm -rf .astro node_modules/.astro && npm run build"
   publish = "dist"
 
 [build.environment]
