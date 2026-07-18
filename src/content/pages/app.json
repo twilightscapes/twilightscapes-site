@@ -10,7 +10,16 @@
       "subheading": "One app across iPhone, iPad, Mac, Apple TV, and Apple Watch: a camera engineered for the night, a full field-editing suite, and a display platform for every screen in the house.",
       "image": "/images/photos/Ghost Towns/night112.jpg",
       "overlay": true,
-      "height": "medium"
+      "height": "medium",
+      "links": [
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/app/twilightscapes/id6790072747",
+          "style": "badge",
+          "image": "/images/app-store-badge.svg",
+          "openInNewTab": true
+        }
+      ]
     },
     {
       "type": "text",
@@ -35,7 +44,7 @@
       "items": [
         {
           "question": "Where do I get it?",
-          "answer": "Twilightscapes is currently in App Store review. The download link will appear here the moment it goes live."
+          "answer": "It's live now — <a href=\"https://apps.apple.com/app/twilightscapes/id6790072747\">download Twilightscapes on the App Store</a>. Everything is free; Twilightscapes Pro is one purchase, no subscription."
         },
         {
           "question": "What does it cost?",
@@ -60,6 +69,13 @@
       "heading": "Need help?",
       "description": "Questions, feedback, or something not working right?",
       "links": [
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/app/twilightscapes/id6790072747",
+          "style": "badge",
+          "image": "/images/app-store-badge.svg",
+          "openInNewTab": true
+        },
         {
           "label": "Support",
           "url": "/support",

@@ -13,8 +13,23 @@
       "overlay": true,
       "height": "large",
       "links": [
-        { "label": "Browse the Work", "url": "/galleries", "style": "primary" },
-        { "label": "The Night Camera", "url": "/camera", "style": "outline" }
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/app/twilightscapes/id6790072747",
+          "style": "badge",
+          "image": "/images/app-store-badge.svg",
+          "openInNewTab": true
+        },
+        {
+          "label": "Browse the Work",
+          "url": "/galleries",
+          "style": "outline"
+        },
+        {
+          "label": "The Night Camera",
+          "url": "/camera",
+          "style": "outline"
+        }
       ]
     },
     {
@@ -37,10 +52,26 @@
       "heading": "The Field Kit",
       "description": "Dig into the technical details:",
       "links": [
-        { "label": "The Night Camera", "url": "/camera", "style": "primary" },
-        { "label": "The Software", "url": "/software", "style": "primary" },
-        { "label": "Displaying Your Work", "url": "/display", "style": "primary" },
-        { "label": "Custom Printing", "url": "/printing", "style": "outline" }
+        {
+          "label": "The Night Camera",
+          "url": "/camera",
+          "style": "primary"
+        },
+        {
+          "label": "The Software",
+          "url": "/software",
+          "style": "primary"
+        },
+        {
+          "label": "Displaying Your Work",
+          "url": "/display",
+          "style": "primary"
+        },
+        {
+          "label": "Custom Printing",
+          "url": "/printing",
+          "style": "outline"
+        }
       ]
     },
     {
@@ -48,6 +79,25 @@
       "heading": "Latest Posts",
       "count": 3,
       "columns": "3"
+    },
+    {
+      "type": "cta",
+      "heading": "Free on the App Store — now",
+      "description": "The complete suite for iPhone, iPad, Mac, Apple TV, and Apple Watch. Everything is free; Twilightscapes Pro is one purchase, no subscription.",
+      "links": [
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/app/twilightscapes/id6790072747",
+          "style": "badge",
+          "image": "/images/app-store-badge.svg",
+          "openInNewTab": true
+        },
+        {
+          "label": "See what's inside →",
+          "url": "/app",
+          "style": "text"
+        }
+      ]
     }
   ]
 }
